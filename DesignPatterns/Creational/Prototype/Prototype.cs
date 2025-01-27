@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Creational.Command
+namespace DesignPatterns.Creational.Prototype
 {
-    internal class Command
+    public interface IPrototype
     {
+        public IPrototype Clone();
     }
 }
