@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Creational.Command.Data
+namespace DesignPatterns.Behavioral.Command.Data
 {
     public enum EAction
     {

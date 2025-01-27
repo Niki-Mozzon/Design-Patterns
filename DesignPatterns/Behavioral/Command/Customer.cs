@@ -1,11 +1,11 @@
-﻿using DesignPatterns.Creational.Command.Data;
+﻿using DesignPatterns.Behavioral.Command.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Creational.Command
+namespace DesignPatterns.Behavioral.Command
 {
     public class Customer
     {
@@ -14,7 +14,8 @@ namespace DesignPatterns.Creational.Command
         {
             Command = command;
         }
-        public EAction ExecuteCommand() {
+        public EAction ExecuteCommand()
+        {
             return Command.Execute();
         }
     }

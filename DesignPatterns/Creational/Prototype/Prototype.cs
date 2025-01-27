@@ -10,4 +10,12 @@ namespace DesignPatterns.Creational.Prototype
     {
         public IPrototype Clone();
     }
+
+    public class Car : IPrototype
+    {
+        public IPrototype Clone()
+        {
+            return this;
+        }
+    }
 }

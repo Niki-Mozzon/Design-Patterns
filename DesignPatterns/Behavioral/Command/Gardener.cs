@@ -1,6 +1,6 @@
-﻿using DesignPatterns.Creational.Command.Data;
+﻿using DesignPatterns.Behavioral.Command.Data;
 
-namespace DesignPatterns.Creational.Command
+namespace DesignPatterns.Behavioral.Command
 {
     public class Gardener : ICommand
     {
