@@ -23,4 +23,11 @@ namespace DesignPatterns.Data
 	{
 		SUV, Sport, StationWagon
 	}
+
+    public class Passenger
+    {
+        public bool hasTicket { get; set; }
+        public bool hasAllowedGoods { get; set; }
+        public bool hasPassport { get; set; }
+    }
 }
