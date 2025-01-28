@@ -1,8 +1,8 @@
-﻿using DesignPatterns.Behavioral.Command.Data;
+﻿using DesignPatterns.Data;
 
 namespace DesignPatterns.Behavioral.Command
 {
-    public class Mechanic : ICommand
+	public class Mechanic : ICommand
     {
         private readonly EVehicle Vehicle;
         public Mechanic(EVehicle vehicle)

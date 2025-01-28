@@ -1,4 +1,4 @@
-﻿using DesignPatterns.Behavioral.Command.Data;
+﻿using DesignPatterns.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Behavioral.Command
 {
-    public class Customer
+	public class Customer
     {
         public ICommand Command;
         public void SetCommand(ICommand command)

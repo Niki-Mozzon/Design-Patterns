@@ -1,8 +1,8 @@
-﻿using DesignPatterns.Behavioral.Command.Data;
+﻿using DesignPatterns.Data;
 
 namespace DesignPatterns.Behavioral.Command
 {
-    public interface ICommand
+	public interface ICommand
     {
         EAction Execute();
     }
